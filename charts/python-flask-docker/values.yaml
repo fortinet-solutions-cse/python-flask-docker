@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.7.251.203:5000/ma-jx-gcp/python-flask-docker
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 
 # define environment variables here as a map of key: value
